@@ -1,0 +1,40 @@
+body {
+	background-color: #eee;
+	color: rgb(100, 100, 100);
+}
+
+img {
+	height: 60%;
+	width: 80%;
+}
+
+h1 {
+text-align: center;
+}
+
+/*изображения*/
+/*
+section#main {
+	height: 1000px; 
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+*/
+
+/*паттерны*/
+/*
+section#main {
+	height: 1000px; 
+	background-image: url(../images/pattern.png);
+	background-repeat: repeat;
+} 
+*/
+
+/* Изображение-ссылка */
+.basket-img { 
+	width: 32px;
+}
+

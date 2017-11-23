@@ -1,0 +1,47 @@
+Классы Bootstrap
+<h1 class="text-center">  - автоматическое выравнивание текста
+<div class="header text-center">  - совмещение классов - через пробел
+<div class="col-md-4 phone text-right"> - выравнивание вправо
+
+section#название -        секции вертикального разделения
+.row -		       уровни внутри секции
+.container - 	       контейнер с отступами <блочный>
+.col-lg-1/др	       элемент с регулируемой шириной 1-12
+
+В Emmet:
+- section#main>.container>.row>.col-md-4*3
+- section#main>.container>.row>.col-md-4*3>.container
+
+
+Для устройств с большим разрешением экрана:
+.col-lg-1      -  элемент размером 1 колонки (из 12) <ширина колонки 97>
+.col-lg-4	  -  элемент размером 4 колонки (из 12)
+
+Для устройств со средним разрешением экрана:
+.col-md-			<ширина колонки 81>
+
+Для устройств со малыми экранами:
+.col-sm-			 <ширина колонки 62>
+
+Для устройств со очень малыми экранами:
+.col-xs-			<ширина колонки auto>
+
+
+
+Для CSS-разметки фона
+	background-repeat: no-repeat; - нет повторения
+	background-repeat: repeat-x; - повторение по оси х
+	background-repeat: repeat-y; - повторение по оси у
+
+	background-size: cover; - закрепить фон 
+	background-size: 100%; - "резиновый" фон
+
+	background-position: fixed; - фон не прокручивается вместе со
+			                  страницей
+
+	background: center; 	-фон встает в центр всей секции
+	background: center top; 	-фон встает в центр всей секции
+
+	Можно совмещать:
+	background: url(../images/background.jpg) center;
+	background: url(../images/background.jpg) center top;
